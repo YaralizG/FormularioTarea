@@ -1,0 +1,27 @@
+﻿@model FormularioTrabajo.Models.Ventas
+@{
+    ViewData["Title"] = "Venta";
+}
+
+<div class="text-center">
+    <h1 class="display-4">FORMULARIO VENTAS</h1>
+   
+    <form asp-controller="Ventas" asp-action="HacerVenta">
+        <div class="form-group">
+            <label asp-for="NombreCliente" class="form-label"></label>
+            <input asp-for="NombreCliente" class="form-control form-control-sm" type="text" placeholder="Nombre del producto">
+            <label asp-for="Cantidad" class="form-label"></label>
+            <input asp-for="Cantidad" class="form-control form-control-sm" type="number" placeholder="Ingrese la cantidad">
+            <label asp-for="PrecioProducto" class="form-label"></label>
+            <input asp-for="PrecioProducto" class="form-control form-control-sm" type="number" placeholder="Ingrese el precio">
+        </div>
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+        </div>
+
+    </form>
+
+    <h1>@ViewData["Message"]</h1>
+
+</div>

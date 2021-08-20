@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\USMP\\2021-II\\PROGRAMACION 1\\LABORATORIO\\GITHUB\\FormularioTarea\\FormularioTrabajo\\FormularioTrabajo.csproj": {}
+  },
+  "projects": {
+    "E:\\USMP\\2021-II\\PROGRAMACION 1\\LABORATORIO\\GITHUB\\FormularioTarea\\FormularioTrabajo\\FormularioTrabajo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\USMP\\2021-II\\PROGRAMACION 1\\LABORATORIO\\GITHUB\\FormularioTarea\\FormularioTrabajo\\FormularioTrabajo.csproj",
+        "projectName": "FormularioTrabajo",
+        "projectPath": "E:\\USMP\\2021-II\\PROGRAMACION 1\\LABORATORIO\\GITHUB\\FormularioTarea\\FormularioTrabajo\\FormularioTrabajo.csproj",
+        "packagesPath": "C:\\Users\\Yarita\\.nuget\\packages\\",
+        "outputPath": "E:\\USMP\\2021-II\\PROGRAMACION 1\\LABORATORIO\\GITHUB\\FormularioTarea\\FormularioTrabajo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yarita\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
