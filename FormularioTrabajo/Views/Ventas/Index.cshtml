@@ -8,16 +8,16 @@
    
     <form asp-controller="Ventas" asp-action="HacerVenta">
         <div class="form-group">
-            <label asp-for="NombreCliente" class="form-label"></label>
-            <input asp-for="NombreCliente" class="form-control form-control-sm" type="text" placeholder="Nombre del producto">
+            <label asp-for="NombreProducto" class="form-label"></label>
+            <input asp-for="NombreProducto" class="form-control form-control-sm" type="text" placeholder="Ingresar Nombre">
             <label asp-for="Cantidad" class="form-label"></label>
-            <input asp-for="Cantidad" class="form-control form-control-sm" type="number" placeholder="Ingrese la cantidad">
+            <input asp-for="Cantidad" class="form-control form-control-sm" type="number" placeholder="Ingresar Cantidad">
             <label asp-for="PrecioProducto" class="form-label"></label>
-            <input asp-for="PrecioProducto" class="form-control form-control-sm" type="number" placeholder="Ingrese el precio">
+            <input asp-for="PrecioProducto" class="form-control form-control-sm" type="number" placeholder="Ingresar Precio">
         </div>
         
         <div class="form-group">
-            <button type="submit" class="btn btn-primary">Aceptar</button>
+            <button type="submit" class="btn btn-info">Aceptar</button>
         </div>
 
     </form>
